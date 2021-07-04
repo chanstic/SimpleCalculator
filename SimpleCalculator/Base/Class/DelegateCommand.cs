@@ -15,9 +15,9 @@ namespace SimpleCalculator.Base.Class
         {
             //throw new NotImplementedException();
 
-            if (DoCanexcute != null)
+            if (DoCanExecute != null)
             {
-                return DoCanexcute.Invoke(parameter);
+                return DoCanExecute.Invoke(parameter);
             }
 
             return false;
@@ -28,14 +28,14 @@ namespace SimpleCalculator.Base.Class
         {
             //throw new NotImplementedException();
 
-            if (DoExcute != null)
+            if (DoExecute != null)
             {
-                DoExcute.Invoke(parameter);
+                DoExecute.Invoke(parameter);
             }
         }
 
-        public Func<object, bool> DoCanexcute { get; set; }
+        public Func<object, bool> DoCanExecute { get; set; }
 
-        public Action<object> DoExcute { get; set; }
+        public Action<object> DoExecute { get; set; }
     }
 }

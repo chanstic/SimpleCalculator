@@ -60,13 +60,13 @@ namespace SimpleCalculator.ViewModels
         {
             //初始化加法方法
             SumDelegateCommand = new DelegateCommand();
-            SumDelegateCommand.DoCanexcute = new Func<object, bool>(o => true);
-            SumDelegateCommand.DoExcute = new Action<object>(o => { Result = FirstNumber + SeconeNumber; });
+            SumDelegateCommand.DoCanExecute = new Func<object, bool>(o => true);
+            SumDelegateCommand.DoExecute = new Action<object>(o => { Result = FirstNumber + SeconeNumber; });
 
             //初始化获取数据方法
             GetNumbersDelegateCommand = new DelegateCommand();
-            GetNumbersDelegateCommand.DoCanexcute = new Func<object, bool>(o => true);
-            GetNumbersDelegateCommand.DoExcute = new Action<object>(o =>
+            GetNumbersDelegateCommand.DoCanExecute = new Func<object, bool>(o => true);
+            GetNumbersDelegateCommand.DoExecute = new Action<object>(o =>
               {
                   GetNumbersAction getNumbersAction = new GetNumbersAction();
                   CalculatorModel calculatorModel = getNumbersAction.GetNumbers();

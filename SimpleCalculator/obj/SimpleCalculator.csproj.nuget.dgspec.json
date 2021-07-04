@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chans\\source\\repos\\SimpleCalculator\\SimpleCalculator\\SimpleCalculator.csproj": {}
+    "D:\\Github\\SimpleCalculator\\SimpleCalculator\\SimpleCalculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chans\\source\\repos\\SimpleCalculator\\SimpleCalculator\\SimpleCalculator.csproj": {
+    "D:\\Github\\SimpleCalculator\\SimpleCalculator\\SimpleCalculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chans\\source\\repos\\SimpleCalculator\\SimpleCalculator\\SimpleCalculator.csproj",
+        "projectUniqueName": "D:\\Github\\SimpleCalculator\\SimpleCalculator\\SimpleCalculator.csproj",
         "projectName": "SimpleCalculator",
-        "projectPath": "C:\\Users\\chans\\source\\repos\\SimpleCalculator\\SimpleCalculator\\SimpleCalculator.csproj",
+        "projectPath": "D:\\Github\\SimpleCalculator\\SimpleCalculator\\SimpleCalculator.csproj",
         "packagesPath": "C:\\Users\\chans\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chans\\source\\repos\\SimpleCalculator\\SimpleCalculator\\obj\\",
+        "outputPath": "D:\\Github\\SimpleCalculator\\SimpleCalculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chans\\AppData\\Roaming\\NuGet\\NuGet.Config",
